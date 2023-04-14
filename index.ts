@@ -2,7 +2,7 @@ import axios from "axios";
 import util from 'util';
 import fs from "fs";
 import {io, Socket} from "socket.io-client";
-import { env, exit, kill } from "process";
+import { exit } from "process";
 
 const DEFAULT_ACCEPT_COMMANDS_AT_USER_RANK_LEVEL = 2;
 const DEFAULT_INACTIVITY_TIMEOUT = 10;
