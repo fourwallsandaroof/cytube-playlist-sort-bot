@@ -11,7 +11,7 @@ primary_region = "sea"
   enableLogging = "true"
   room = "fourwallsandaroof"
   serverBaseUrl = "https://cytu.be"
-  inactivityTimeoutMinutes = 10
+  inactivityTimeoutMinutes = 30
 
 [[services]]
   protocol = "tcp"
