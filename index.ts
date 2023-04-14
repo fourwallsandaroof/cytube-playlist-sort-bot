@@ -5,7 +5,7 @@ import {io, Socket} from "socket.io-client";
 import { exit } from "process";
 
 const DEFAULT_ACCEPT_COMMANDS_AT_USER_RANK_LEVEL = 2;
-const DEFAULT_INACTIVITY_TIMEOUT = 1;
+const DEFAULT_INACTIVITY_TIMEOUT = 10;
 
 function readBotSettings() : Config {
 
