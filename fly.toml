@@ -3,7 +3,7 @@
 app = "cytube-sort-bot"
 kill_signal = "SIGINT"
 kill_timeout = 5
-primary_region = "sea"
+primary_region = "ord"
 
 [deploy]
 
