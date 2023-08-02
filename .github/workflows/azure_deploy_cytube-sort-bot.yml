@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - cytube-sort-bot
 on:
   push:
     branches:
-      - azure_deploy
+      - workflow_dispatch
   workflow_dispatch:
 
 jobs:
